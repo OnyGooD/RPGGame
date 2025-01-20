@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Karaktergenerátor" Height="700" Width="1100">
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\toth.sandor.benedek\source\repos\rpggame\rpggame\background.png" Stretch="UniformToFill" />
+        <ImageBrush ImageSource="background.png" Stretch="UniformToFill" />
     </Window.Background>
     <Grid>
         <Grid.ColumnDefinitions>
@@ -59,7 +59,7 @@
             </StackPanel>
         </Border>
 
-        <Image Grid.Column="1" Source="C:\Users\toth.sandor.benedek\source\repos\rpggame\rpggame\character-image.png" Stretch="Uniform" SnapsToDevicePixels="True"
+        <Image Grid.Column="1" Source="character-image.png" Stretch="Uniform" SnapsToDevicePixels="True"
                RenderOptions.BitmapScalingMode="NearestNeighbor" Margin="20" />
     </Grid>
 </Window>

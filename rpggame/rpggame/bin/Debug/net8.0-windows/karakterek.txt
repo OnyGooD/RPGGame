@@ -1,0 +1,3 @@
+{ Nev = , Faj = Ember, Kaszt = Harcos, Ero = 5, Ugyesseg = 5, Eletero = 5, Magia = 5 }
+asd;Ember;Harcos;5;5;5;5
+asd1;Ember;Harcos;5;5;5;5

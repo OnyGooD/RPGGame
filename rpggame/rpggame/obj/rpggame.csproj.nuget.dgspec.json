@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\toth.sandor.benedek\\source\\repos\\rpggame\\rpggame\\rpggame.csproj": {}
+    "C:\\Users\\toth.sandor.benedek\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\rpggame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\toth.sandor.benedek\\source\\repos\\rpggame\\rpggame\\rpggame.csproj": {
+    "C:\\Users\\toth.sandor.benedek\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\rpggame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\toth.sandor.benedek\\source\\repos\\rpggame\\rpggame\\rpggame.csproj",
+        "projectUniqueName": "C:\\Users\\toth.sandor.benedek\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\rpggame.csproj",
         "projectName": "rpggame",
-        "projectPath": "C:\\Users\\toth.sandor.benedek\\source\\repos\\rpggame\\rpggame\\rpggame.csproj",
+        "projectPath": "C:\\Users\\toth.sandor.benedek\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\rpggame.csproj",
         "packagesPath": "C:\\Users\\toth.sandor.benedek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\toth.sandor.benedek\\source\\repos\\rpggame\\rpggame\\obj\\",
+        "outputPath": "C:\\Users\\toth.sandor.benedek\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\toth.sandor.benedek\\AppData\\Roaming\\NuGet\\NuGet.Config",

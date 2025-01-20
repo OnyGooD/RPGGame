@@ -20,24 +20,22 @@ namespace rpggame
         NevMezo.Text = nevek[random.Next(nevek.Length)];
     }
 
-    private void Mentes_Click(object sender, RoutedEventArgs e)
-    {
-        var karakter = new
+        private void Mentes_Click(object sender, RoutedEventArgs e)
         {
-            Nev = NevMezo.Text,
-            Faj = (FajLista.SelectedItem as ComboBoxItem)?.Content.ToString(),
-            Kaszt = (KasztLista.SelectedItem as ComboBoxItem)?.Content.ToString(),
-            Ero = EroMezo.Text,
-            Ugyesseg = UgyessegMezo.Text,
-            Eletero = EleteroMezo.Text,
-            Magia = MagiaMezo.Text
-        };
+            var karakter = $"{NevMezo.Text};" +
+                        $"{(FajLista.SelectedItem as ComboBoxItem)?.Content.ToString()};" +
+                        $"{(KasztLista.SelectedItem as ComboBoxItem)?.Content.ToString()};" +
+                        $"{EroMezo.Text};" +
+                        $"{UgyessegMezo.Text};" +
+                        $"{EleteroMezo.Text};" +
+                        $"{MagiaMezo.Text}";
 
-        File.WriteAllText("karakter.json", JsonSerializer.Serialize(karakter));
-        MessageBox.Show("Karakter mentve!");
-    }
+           
+            File.AppendAllText("karakterek.txt", karakter + Environment.NewLine);
+            MessageBox.Show("Karakter mentve!");
+        }
 
-    private void Betoltes_Click(object sender, RoutedEventArgs e)
+            private void Betoltes_Click(object sender, RoutedEventArgs e)
     {
         if (File.Exists("karakter.json"))
         {
