@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("rpggame")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("rpgharc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26fbf1dac57a5670720598c9f61dc9d6d465933f")]
-[assembly: System.Reflection.AssemblyProductAttribute("rpggame")]
-[assembly: System.Reflection.AssemblyTitleAttribute("rpggame")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("rpgharc")]
+[assembly: System.Reflection.AssemblyTitleAttribute("rpgharc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

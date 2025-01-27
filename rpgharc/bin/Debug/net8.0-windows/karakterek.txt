@@ -1,0 +1,3 @@
+beni;Ember;Harcos;5;5;5;5
+beni2;Ember;Genyo;5;5;3;5
+Petikes;Ember;Cukorfalat;5;5;5;2

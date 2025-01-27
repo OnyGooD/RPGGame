@@ -1,0 +1,25 @@
+﻿<Window x:Class="rpgharc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="RPG Harc" Height="900" Width="1500">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        
+        <ListBox x:Name="CharacterListBox" DisplayMemberPath="Nev" 
+                 Grid.Column="0" Margin="10" SelectionChanged="CharacterListBox_SelectionChanged" />
+
+        
+        <StackPanel Grid.Column="1" Margin="10">
+            <Image x:Name="CharacterImage" Height="200" Width="200" Stretch="Uniform" Margin="0,0,0,10" />
+            <TextBlock x:Name="CharacterDetails" FontSize="16" TextWrapping="Wrap" />
+            <Button x:Name="FightButton" Content="Harc" Margin="0,10,0,0" Click="FightButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
