@@ -25,7 +25,7 @@ SelectionChanged="CharacterListBox_SelectionChanged">
                     <Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="ListBoxItem">
-                                <Border Name="border" Background="White" BorderThickness="2" BorderBrush="Black" Padding="10">
+                                <Border Name="border" Background="White" BorderThickness="0.75" BorderBrush="Black" Padding="10">
                                     <ContentPresenter />
                                 </Border>
                                 <ControlTemplate.Triggers>
@@ -41,11 +41,12 @@ SelectionChanged="CharacterListBox_SelectionChanged">
         </ListBox>
 
         <StackPanel Grid.Column="1" Margin="20" VerticalAlignment="Center">
-            <Border Background="Gray" Padding="10" Margin="0,0,0,10">
+            <Image x:Name="CharacterImage" Height="300" Width="300" Stretch="Uniform" Margin="0,0,0,10" />
+            <Border Background="LightGray" Padding="10" Margin="0,0,0,10">
                 <TextBlock x:Name="CharacterDetails" FontSize="18" Foreground="Black" TextWrapping="Wrap"/>
             </Border>
 
-            <Image x:Name="CharacterImage" Height="300" Width="300" Stretch="Uniform" Margin="0,0,0,10" />
+            
 
             <Button x:Name="FightButton" Content="⚔ Harc!" FontSize="22"
 Foreground="White" Background="DarkRed" Padding="10"

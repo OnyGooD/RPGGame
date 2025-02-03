@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\molnar.tamas.sandor\\source\\repos\\rpgharc\\rpgharc.csproj": {}
+    "C:\\Users\\Tamás\\Desktop\\rpgprojekt\\RPGGame\\rpgharc\\rpgharc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\molnar.tamas.sandor\\source\\repos\\rpgharc\\rpgharc.csproj": {
+    "C:\\Users\\Tamás\\Desktop\\rpgprojekt\\RPGGame\\rpgharc\\rpgharc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\molnar.tamas.sandor\\source\\repos\\rpgharc\\rpgharc.csproj",
+        "projectUniqueName": "C:\\Users\\Tamás\\Desktop\\rpgprojekt\\RPGGame\\rpgharc\\rpgharc.csproj",
         "projectName": "rpgharc",
-        "projectPath": "C:\\Users\\molnar.tamas.sandor\\source\\repos\\rpgharc\\rpgharc.csproj",
-        "packagesPath": "C:\\Users\\molnar.tamas.sandor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\molnar.tamas.sandor\\source\\repos\\rpgharc\\obj\\",
+        "projectPath": "C:\\Users\\Tamás\\Desktop\\rpgprojekt\\RPGGame\\rpgharc\\rpgharc.csproj",
+        "packagesPath": "C:\\Users\\Tamás\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tamás\\Desktop\\rpgprojekt\\RPGGame\\rpgharc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\molnar.tamas.sandor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tamás\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -64,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

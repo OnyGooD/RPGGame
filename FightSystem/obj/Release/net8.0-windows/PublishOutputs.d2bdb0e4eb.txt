@@ -1,0 +1,5 @@
+C:\Users\Tamás\source\repos\FightSystem\bin\Release\net8.0-windows\publish\FightSystem.exe
+C:\Users\Tamás\source\repos\FightSystem\bin\Release\net8.0-windows\publish\FightSystem.dll
+C:\Users\Tamás\source\repos\FightSystem\bin\Release\net8.0-windows\publish\FightSystem.deps.json
+C:\Users\Tamás\source\repos\FightSystem\bin\Release\net8.0-windows\publish\FightSystem.runtimeconfig.json
+C:\Users\Tamás\source\repos\FightSystem\bin\Release\net8.0-windows\publish\FightSystem.pdb
