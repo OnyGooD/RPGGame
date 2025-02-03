@@ -5,6 +5,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
+using System.Windows.Media.Animation;
 
 namespace rpgharc
 {
@@ -24,21 +25,21 @@ namespace rpgharc
             {
                 string[] lines = File.ReadAllLines("karakterek.txt");
                 characters = lines.Skip(1)
-                    .Select(line =>
+                .Select(line =>
+                {
+                    var parts = line.Split(';');
+                    return new Character
                     {
-                        var parts = line.Split(';');
-                        return new Character
-                        {
-                            Nev = parts[0],
-                            Faj = parts[1],
-                            Kaszt = parts[2],
-                            Ero = int.Parse(parts[3]),
-                            Ugyesseg = int.Parse(parts[4]),
-                            Eletero = int.Parse(parts[5]),
-                            Magia = int.Parse(parts[6]),
-                            Kep = $"images/{parts[1].ToLower()}_{parts[2].ToLower()}.png"
-                        };
-                    }).ToList();
+                        Nev = parts[0],
+                        Faj = parts[1],
+                        Kaszt = parts[2],
+                        Ero = int.Parse(parts[3]),
+                        Ugyesseg = int.Parse(parts[4]),
+                        Eletero = int.Parse(parts[5]),
+                        Magia = int.Parse(parts[6]),
+                        Kep = $"images/{parts[1].ToLower()}_{parts[2].ToLower()}.png"
+                    };
+                }).ToList();
 
                 CharacterListBox.ItemsSource = characters;
             }
@@ -52,13 +53,14 @@ namespace rpgharc
         {
             if (CharacterListBox.SelectedItem is Character selectedCharacter)
             {
-                CharacterDetails.Text = $"Név: {selectedCharacter.Nev}\n" +
-                                        $"Faj: {selectedCharacter.Faj}\n" +
-                                        $"Kaszt: {selectedCharacter.Kaszt}\n" +
-                                        $"Erő: {selectedCharacter.Ero}\n" +
-                                        $"Ügyesség: {selectedCharacter.Ugyesseg}\n" +
-                                        $"Életerő: {selectedCharacter.Eletero}\n" +
-                                        $"Mágia: {selectedCharacter.Magia}";
+                CharacterDetails.Text = $"🧙‍♂️ Név: {selectedCharacter.Nev}\n" +
+                $"⚔ Faj: {selectedCharacter.Faj}\n" +
+                $"🏹 Kaszt: {selectedCharacter.Kaszt}\n" +
+                $"💪 Erő: {selectedCharacter.Ero}\n" +
+                $"🤸‍♂️ Ügyesség: {selectedCharacter.Ugyesseg}\n" +
+                $"❤️ Életerő: {selectedCharacter.Eletero}\n" +
+                $"✨ Mágia: {selectedCharacter.Magia}";
+
                 try
                 {
                     CharacterImage.Source = new BitmapImage(new Uri(selectedCharacter.Kep, UriKind.Relative));
@@ -74,11 +76,19 @@ namespace rpgharc
         {
             if (CharacterListBox.SelectedItem is Character selectedCharacter)
             {
-                MessageBox.Show($"{selectedCharacter.Nev} harcra kész!", "Harc");
+                MessageBox.Show($"{selectedCharacter.Nev} harcra kész!", "⚔ Harc");
+
+                DoubleAnimation animation = new DoubleAnimation();
+                animation.From = 1.0;
+                animation.To = 0.5;
+                animation.Duration = new Duration(TimeSpan.FromSeconds(0.2));
+                animation.AutoReverse = true;
+
+                FightButton.BeginAnimation(Button.OpacityProperty, animation);
             }
             else
             {
-                MessageBox.Show("Válassz egy karaktert a harc megkezdéséhez!", "Figyelmeztetés");
+                MessageBox.Show("Válassz egy karaktert a harc megkezdéséhez!", "⚠ Figyelmeztetés");
             }
         }
     }
