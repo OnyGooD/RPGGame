@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tamás\\source\\repos\\FightSystem\\FightSystem.csproj": {}
+    "C:\\Users\\Tamás\\Desktop\\rpgprojekt\\RPGGame\\FightSystem\\FightSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tamás\\source\\repos\\FightSystem\\FightSystem.csproj": {
+    "C:\\Users\\Tamás\\Desktop\\rpgprojekt\\RPGGame\\FightSystem\\FightSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tamás\\source\\repos\\FightSystem\\FightSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Tamás\\Desktop\\rpgprojekt\\RPGGame\\FightSystem\\FightSystem.csproj",
         "projectName": "FightSystem",
-        "projectPath": "C:\\Users\\Tamás\\source\\repos\\FightSystem\\FightSystem.csproj",
+        "projectPath": "C:\\Users\\Tamás\\Desktop\\rpgprojekt\\RPGGame\\FightSystem\\FightSystem.csproj",
         "packagesPath": "C:\\Users\\Tamás\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tamás\\source\\repos\\FightSystem\\obj\\",
+        "outputPath": "C:\\Users\\Tamás\\Desktop\\rpgprojekt\\RPGGame\\FightSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
