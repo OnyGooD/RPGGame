@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = rpggame
-build_property.ProjectDir = C:\Users\molnar.tamas.sandor\Desktop\asd\RPGGame\rpggame\rpggame\
+build_property.ProjectDir = C:\Users\toth.sandor.benedek\Desktop\rpg\RPGGame\rpggame\rpggame\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

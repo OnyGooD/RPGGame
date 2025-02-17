@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\molnar.tamas.sandor\\Desktop\\asd\\RPGGame\\rpggame\\",
+  "WorkspaceRootPath": "C:\\Users\\toth.sandor.benedek\\Desktop\\rpg\\RPGGame\\rpggame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8554A326-9E9D-4D1D-84BC-57D497155C12}|rpggame\\rpggame.csproj|c:\\users\\molnar.tamas.sandor\\desktop\\asd\\rpggame\\rpggame\\rpggame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8554A326-9E9D-4D1D-84BC-57D497155C12}|rpggame\\rpggame.csproj|c:\\users\\toth.sandor.benedek\\desktop\\rpg\\rpggame\\rpggame\\rpggame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8554A326-9E9D-4D1D-84BC-57D497155C12}|rpggame\\rpggame.csproj|solutionrelative:rpggame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8554A326-9E9D-4D1D-84BC-57D497155C12}|rpggame\\rpggame.csproj|c:\\users\\molnar.tamas.sandor\\desktop\\asd\\rpggame\\rpggame\\rpggame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{8554A326-9E9D-4D1D-84BC-57D497155C12}|rpggame\\rpggame.csproj|c:\\users\\toth.sandor.benedek\\desktop\\rpg\\rpggame\\rpggame\\rpggame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8554A326-9E9D-4D1D-84BC-57D497155C12}|rpggame\\rpggame.csproj|solutionrelative:rpggame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8554A326-9E9D-4D1D-84BC-57D497155C12}|rpggame\\rpggame.csproj|c:\\users\\molnar.tamas.sandor\\desktop\\asd\\rpggame\\rpggame\\rpggame\\rpggame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{8554A326-9E9D-4D1D-84BC-57D497155C12}|rpggame\\rpggame.csproj|c:\\users\\toth.sandor.benedek\\desktop\\rpg\\rpggame\\rpggame\\rpggame\\rpggame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8554A326-9E9D-4D1D-84BC-57D497155C12}|rpggame\\rpggame.csproj|solutionrelative:rpggame\\rpggame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\molnar.tamas.sandor\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\bin\\Debug\\net8.0-windows\\karakter.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\toth.sandor.benedek\\Desktop\\rpg\\RPGGame\\rpggame\\rpggame\\bin\\Debug\\net8.0-windows\\karakter.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:rpggame\\bin\\Debug\\net8.0-windows\\karakter.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -26,15 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "karakter.json",
-              "DocumentMoniker": "C:\\Users\\molnar.tamas.sandor\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\bin\\Debug\\net8.0-windows\\karakter.json",
+              "DocumentMoniker": "C:\\Users\\toth.sandor.benedek\\Desktop\\rpg\\RPGGame\\rpggame\\rpggame\\bin\\Debug\\net8.0-windows\\karakter.json",
               "RelativeDocumentMoniker": "rpggame\\bin\\Debug\\net8.0-windows\\karakter.json",
-              "ToolTip": "C:\\Users\\molnar.tamas.sandor\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\bin\\Debug\\net8.0-windows\\karakter.json",
+              "ToolTip": "C:\\Users\\toth.sandor.benedek\\Desktop\\rpg\\RPGGame\\rpggame\\rpggame\\bin\\Debug\\net8.0-windows\\karakter.json",
               "RelativeToolTip": "rpggame\\bin\\Debug\\net8.0-windows\\karakter.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -44,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "rpggame.csproj",
-              "DocumentMoniker": "C:\\Users\\molnar.tamas.sandor\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\rpggame.csproj",
+              "DocumentMoniker": "C:\\Users\\toth.sandor.benedek\\Desktop\\rpg\\RPGGame\\rpggame\\rpggame\\rpggame.csproj",
               "RelativeDocumentMoniker": "rpggame\\rpggame.csproj",
-              "ToolTip": "C:\\Users\\molnar.tamas.sandor\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\rpggame.csproj",
+              "ToolTip": "C:\\Users\\toth.sandor.benedek\\Desktop\\rpg\\RPGGame\\rpggame\\rpggame\\rpggame.csproj",
               "RelativeToolTip": "rpggame\\rpggame.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -56,9 +60,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\molnar.tamas.sandor\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\toth.sandor.benedek\\Desktop\\rpg\\RPGGame\\rpggame\\rpggame\\MainWindow.xaml",
               "RelativeDocumentMoniker": "rpggame\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\molnar.tamas.sandor\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\toth.sandor.benedek\\Desktop\\rpg\\RPGGame\\rpggame\\rpggame\\MainWindow.xaml",
               "RelativeToolTip": "rpggame\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-20T08:54:33.532Z"
@@ -67,11 +71,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\molnar.tamas.sandor\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\toth.sandor.benedek\\Desktop\\rpg\\RPGGame\\rpggame\\rpggame\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "rpggame\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\molnar.tamas.sandor\\Desktop\\asd\\RPGGame\\rpggame\\rpggame\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\toth.sandor.benedek\\Desktop\\rpg\\RPGGame\\rpggame\\rpggame\\MainWindow.xaml.cs",
               "RelativeToolTip": "rpggame\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAsAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T08:54:11.67Z",
               "EditorCaption": ""
